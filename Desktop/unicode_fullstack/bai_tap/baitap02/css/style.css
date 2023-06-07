@@ -1,0 +1,47 @@
+.boxmail {
+    height: 230px;
+    background-color: #334455;
+    border-radius: 10px;
+}
+
+.content {
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.content p {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+h1 span {
+    color: rgb(228, 167, 0);
+}
+
+input[type=email] {
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+}
+
+input[type=submit] {
+    width: 200px;
+    height: 30px;
+    background-color: yellow;
+    border: none;
+    border-radius: 2px;
+}
+
+input[type=submit]:hover {
+    background-color: red;
+    color: white;
+    border: 2px outset white;
+}
+
+input::placeholder {
+    padding-left: 10px;
+}
