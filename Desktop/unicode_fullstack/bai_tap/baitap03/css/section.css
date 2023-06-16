@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+.content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.line-title::after {
+    content: "";
+    border: 1px solid gray;
+    display: inline-block;
+    width: 100px;
+}
+
+.box-one,
+.box-two {
+    margin-top: 30px;
+}
+
+.text-box {
+    width: 400px;
+    display: inline-block;
+}
+
+.image {
+    width: 60px;
+    float: left;
+}
+
+.text-item {
+    width: 320px;
+    float: right;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.text-item p {
+    font-style: italic;
+}
+
+.name-client {
+    font-weight: bold;
+    padding-top: 5px;
+}
